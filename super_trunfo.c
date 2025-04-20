@@ -14,17 +14,17 @@ int main(){
 
      printf("Digite o nome da Cidade: \n");
      // Use um nome próprio, ex: Niterói
-     scanf("%s", &nome);
+     scanf("%s\n", &nome);
 
      printf("Digite a inicial: \n");
      // Somente uma Letra/Anagrama, que seja de A a H, para nomear o Estado, ex: Estado RJ - A
-     scanf("%c", &inicial);
+     scanf("%c\n", &inicial);
 
      printf("Digite a quantidade de habitantes: \n");
      // Quantas pessoas moram neste território, ex: 481.749
      scanf("%d\n", &populacao);
 
-     printf("Digite a quantidade de pontos turísticos na Cidade: \n");
+     printf("Digite o número de pontos turísticos na Cidade: \n");
     // Pontos turísticos representado por 'turismo' é um local frequentemente vistado por turistas, ex: 10
      scanf("%d", &turismo);
 
