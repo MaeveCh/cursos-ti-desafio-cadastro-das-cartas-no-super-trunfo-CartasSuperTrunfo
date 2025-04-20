@@ -4,10 +4,9 @@ int main(){
      // Carta 1
      int populacao, pontost;
      float pib, area;
-     char estado;
-     char carta[10];
-     char nome[20] ;
-
+     char opcao;
+     char carta, nome[20];
+     
 
     printf("Digite o código da carta: \n");
      // A letra do Estado seguida de um número de 01 À 04, ex: A01
@@ -19,9 +18,9 @@ int main(){
 
      printf("Digite um anagrama: \n");
      // Somente uma Letra/Anagrama, que seja de A a H, para nomear o Estado, ex: Estado RJ - A
-     scanf("%c", &estado);
+     scanf("%s", &opcao);
 
-     printf("Digite o número de habitantes: \n");
+     printf("Digite a quantidade de habitantes: \n");
      // Quantas pessoas moram neste território, ex: 481.749
      scanf("%d", &populacao);
 
@@ -29,7 +28,7 @@ int main(){
     // Pontos turísticos representado por 'pontost' é um local frequentemente vistado por turistas, ex: 10
      scanf("%d", &pontost);
 
-     printf("Digite o Produto Interno Bruto da Cidade: \n");
+     printf("Digite o valor Produto Interno Bruto da Cidade: \n");
      //Produto Interno Bruto é o PIB, ele indica a riqueza da Cidade num período definido, ex: 66.349.000.000
      scanf("%f", &pib);
 
