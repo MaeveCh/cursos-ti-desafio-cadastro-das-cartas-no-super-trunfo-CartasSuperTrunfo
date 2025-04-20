@@ -16,7 +16,7 @@ int main(){
      // Use um nome próprio, ex: Niterói
      scanf("%s", &nome);
 
-     printf("Digite um anagrama: \n");
+     printf("Digite a inicial: \n");
      // Somente uma Letra/Anagrama, que seja de A a H, para nomear o Estado, ex: Estado RJ - A
      scanf("%c", &inicial);
 
@@ -26,7 +26,7 @@ int main(){
 
      printf("Digite a quantidade de pontos turísticos na Cidade: \n");
     // Pontos turísticos representado por 'turismo' é um local frequentemente vistado por turistas, ex: 10
-     scanf("%d", &turismo);
+     scanf("%i", &turismo);
 
      printf("Digite o valor Produto Interno Bruto da Cidade: \n");
      //Produto Interno Bruto é o PIB, ele indica a riqueza da Cidade num período definido, ex: 66.349.000.000
@@ -39,11 +39,11 @@ int main(){
 
      // Finalização do código Carta 1
       
-     printf("O nome da cidade é: %s - O código da carta é: %s\n", carta, nome);
+     printf("O nome da cidade é: %s - O código da carta é: %s\n", nome, carta);
 
      printf("O anagrama é: %c\n", inicial);
 
-     printf("O número de habitantes é: %d - O número de pontos turísticos é: %d", populacao, turismo);
+     printf("O número de habitantes é: %d - O número de pontos turísticos é: %i", populacao, turismo);
 
      printf("O PIB da cidade é: %f - A área da cidade é: %f", pib, area);
 
