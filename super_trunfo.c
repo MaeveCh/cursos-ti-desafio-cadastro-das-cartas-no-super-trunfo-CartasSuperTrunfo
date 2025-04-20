@@ -17,17 +17,17 @@ int main(){
      // Use um nome próprio, ex: Niterói
      scanf("%s", &nome);
 
-     printf("Digite uma letra de 'A' a 'H': \n");
-     // Somente uma Letra/Anagrama para nomear o Estado, ex: Estado RJ - A
+     printf("Digite um anagrama: \n");
+     // Somente uma Letra/Anagrama, que seja de A a H, para nomear o Estado, ex: Estado RJ - A
      scanf("%c", &estado);
 
      printf("Digite o número de habitantes: \n");
      // Quantas pessoas moram neste território, ex: 481.749
-    scanf("%d", &populacao);
+     scanf("%d", &populacao);
 
      printf("Digite o número de pontos turísticos: \n");
     // Pontos turísticos representado por 'pontost' é um local frequentemente vistado por turistas, ex: 10
-    scanf("%d", &pontost);
+     scanf("%d", &pontost);
 
      printf("Digite o Produto Interno Bruto da Cidade: \n");
      //Produto Interno Bruto é o PIB, ele indica a riqueza da Cidade num período definido, ex: 66.349.000.000
@@ -36,6 +36,8 @@ int main(){
      printf("Digite a área em quilômetros quadrados 'km^2': \n");
      // A área em km^2 é a dimensão do território, ou seja, o tamanho dele, ex: 133.757
      scanf("%f", &area);
+
+     
 
 
 
